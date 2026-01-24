@@ -1,0 +1,50 @@
+.navigation {
+    background-color: rgb(22, 26, 39);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: left; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    gap: 100px;
+    padding-left: 80px;
+}
+.navbar {
+  display: flex; 
+  gap: 30px; 
+  float: right; 
+  align-items: center;
+  padding-right: 10px;
+  list-style: none;
+ 
+}
+.navbar a
+ {
+    text-decoration: none;
+    color: white;
+    /* justify-content: space-around; */
+    padding:10px ;
+}
+.navbar a:hover{
+    background-color: rgb(166, 66, 6) ;
+    height: 70px;
+}
+.login-btn {
+    background-color: red;
+    height: 60px;
+}
+==========
+<div class="navigation">
+      <img src="image/down.png" alt="" class="logo" />
+      <ul class="navbar">
+        <li><a href="">Courses</a></li>
+        <li><a href="">Student Stories</a></li>
+        <li><a href="">Free Resources</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+      <!-- <ul class="login">
+        <li><a href="">LOGIN</a></li>
+      </ul> -->\
+      <button class="login-btn"><a href="">LOGIN</a></button>
+    </div>
