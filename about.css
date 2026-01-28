@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+     /* background-color: rgb(29, 35, 52) ; */
 }
 body{
     margin: 0;
@@ -28,6 +29,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    
 }
 .logo-wrapper{
     display: flex;
@@ -40,6 +42,7 @@ body{
   align-items: center;
   /* padding-right: 10px; */
   list-style: none;
+  
 }
 .navbar a
  {
@@ -116,6 +119,8 @@ text-align: end;
     display: grid;
     grid-template-columns: repeat(4,1fr);
    gap: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 .team-heading {
     text-align: center;
@@ -127,7 +132,48 @@ text-align: end;
     font-size: 70px;
 }
 .team-images img {
-    width: 100%;
-    height: auto;
-    border-radius: 16px;
+    /* width: 100%; */
+    /* height: auto; */
+    /* border-radius: 16px; */
+    
+}
+.card-1 {
+    background-image: url("AboutImage/first-image.webp");  
+}
+.card-2 {
+    background-image: url("AboutImage/second-image.webp");
+}
+.card-3 {
+    background-image: url("AboutImage/third-image.webp");
+}
+.card-4 {
+    background-image: url("AboutImage/fourth-image.webp");
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+     color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3px;
+    background-position: center;
+    height: 400px
+    
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* padding-top: 10px; */
+    /* padding-bottom: 100px; */
+}
+.card-1 h1 h3,
+.card-2 h1 h3,
+.card-3 h1 h3,
+.card-4 h1 h3 {
+    margin-bottom: 40px;
 }
